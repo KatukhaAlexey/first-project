@@ -53,13 +53,19 @@ HEAD -- это голова.
 Коммит -- это всему голова.
 Статусы файлов:
 <br>
+<br>
 '''mermaid
+<br>
 graph LR;
+<br>
 untracked -- "git add" --> staged;
+<br>
 staged -- "???" --> tracked/comitted;
+<br>
 %% стрелка без текста для примера:
+<br>
 A --> B;
-'''
+<br>
 %% описание схемы
 '''
 <br>
